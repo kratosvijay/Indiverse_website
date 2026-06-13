@@ -1,0 +1,146 @@
+.section {
+  padding: 6rem 1.5rem;
+  background: var(--color-surface);
+  border-top: var(--border-glass-light);
+  border-bottom: var(--border-glass-light);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+.carousel {
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.slide {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+
+.activeSlide {
+  opacity: 1;
+  transform: scale(1);
+  position: relative;
+  pointer-events: auto;
+}
+
+.quote {
+  font-size: 1.35rem;
+  line-height: 1.6;
+  font-weight: 500;
+  color: var(--color-text-heading);
+  margin-bottom: 2rem;
+  position: relative;
+  padding: 0 1.5rem;
+}
+
+.quote::before {
+  content: "“";
+  font-size: 4rem;
+  position: absolute;
+  top: -2.5rem;
+  left: -0.5rem;
+  color: rgba(91, 75, 255, 0.1);
+  font-family: serif;
+}
+
+.quote::after {
+  content: "”";
+  font-size: 4rem;
+  position: absolute;
+  bottom: -4rem;
+  right: -0.5rem;
+  color: rgba(91, 75, 255, 0.1);
+  font-family: serif;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.authorName {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.authorRole {
+  font-size: 0.9rem;
+  color: var(--color-text-body);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.btn {
+  background: var(--color-bg);
+  border: var(--border-glass);
+  color: var(--color-text-heading);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.btn:hover {
+  background: var(--color-primary);
+  color: #ffffff;
+  border-color: transparent;
+  transform: translateY(-1px);
+}
+
+.dots {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: var(--transition-smooth);
+}
+
+.activeDot {
+  background: var(--color-primary);
+  width: 20px;
+  border-radius: 9999px;
+}
