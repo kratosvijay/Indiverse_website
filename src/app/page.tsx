@@ -144,7 +144,7 @@ export default function Home() {
           <span className={styles.sectionTag}>About Us</span>
           <h2 className={styles.sectionTitle}>Technology Driven Innovation</h2>
           <p className={styles.sectionDesc}>
-            Indiverse Enterprises is a software company focused on creating scalable mobile applications, SaaS platforms, ERP systems, AI-powered solutions, and enterprise-grade software. We help businesses digitize operations through secure, cloud-native technology.
+            Indiverse Enterprises Pvt Ltd is a software company focused on creating scalable mobile applications, SaaS platforms, ERP systems, AI-powered solutions, and enterprise-grade software. We help businesses digitize operations through secure, cloud-native technology.
           </p>
         </div>
         

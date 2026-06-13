@@ -32,7 +32,7 @@ export default function About() {
           <span className={styles.sectionTag}>About Indiverse</span>
           <h1 className={styles.sectionTitle} style={{ fontSize: "3rem" }}>Technology Driven Innovation</h1>
           <p className={styles.sectionDesc} style={{ marginTop: "1rem" }}>
-            Indiverse Enterprises is an established technology firm focused on engineering robust, custom mobile applications, SaaS subscription systems, real-time GPS tracking servers, and AI integrations.
+            Indiverse Enterprises Pvt Ltd is an established technology firm focused on engineering robust, custom mobile applications, SaaS subscription systems, real-time GPS tracking servers, and AI integrations.
           </p>
         </div>
       </section>
@@ -41,7 +41,7 @@ export default function About() {
       <section className={styles.section} style={{ padding: "2rem 1.5rem" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem", fontSize: "1.05rem", lineHeight: "1.75" }}>
           <p>
-            Founded on the principles of modular architecture and pixel-perfect design, Indiverse Enterprises serves as the parent brand for digital products and operational platforms that empower schools, logistics companies, retail chains, and startups.
+            Founded on the principles of modular architecture and pixel-perfect design, Indiverse Enterprises Pvt Ltd serves as the parent brand for digital products and operational platforms that empower schools, logistics companies, retail chains, and startups.
           </p>
           <p>
             We operate out of a modern engineering stack. We believe that mobile and cloud software should not just run—it should be visually pleasing, responsive, and secure. We avoid typical placeholder integrations, ensuring every database trigger and layout element is optimized.

@@ -35,22 +35,22 @@ export default function Contact() {
                   <span style={{ fontSize: "0.8rem", fontWeight: "700", textTransform: "uppercase", color: "var(--color-primary)", display: "block" }}>
                     Company Name
                   </span>
-                  <span style={{ fontWeight: "600", color: "var(--color-text-heading)", fontSize: "1.1rem" }}>Indiverse Enterprises</span>
+                  <span style={{ fontWeight: "600", color: "var(--color-text-heading)", fontSize: "1.1rem" }}>Indiverse Enterprises Pvt Ltd</span>
                 </div>
                 
                 <div>
                   <span style={{ fontSize: "0.8rem", fontWeight: "700", textTransform: "uppercase", color: "var(--color-primary)", display: "block" }}>
                     Contact Person
                   </span>
-                  <span>Kennette Wesley Stephen</span>
+                  <span>Dillivijay.V</span>
                 </div>
                 
                 <div>
                   <span style={{ fontSize: "0.8rem", fontWeight: "700", textTransform: "uppercase", color: "var(--color-primary)", display: "block" }}>
                     Email
                   </span>
-                  <a href="mailto:kennettewesley@indiverseenterprises.com" style={{ color: "var(--color-secondary-text)", textDecoration: "none", fontWeight: "600" }}>
-                    kennettewesley@indiverseenterprises.com
+                  <a href="mailto:dillivijay@indiverseenterprises.com" style={{ color: "var(--color-secondary-text)", textDecoration: "none", fontWeight: "600" }}>
+                    dillivijay@indiverseenterprises.com
                   </a>
                 </div>
 
@@ -134,8 +134,8 @@ export default function Contact() {
             }}></div>
             
             <div style={{ zIndex: 2, textAlign: "center", background: "#ffffff", padding: "1.5rem 2rem", borderRadius: "16px", border: "var(--border-glass)", boxShadow: "var(--shadow-lg)" }}>
-              <h3 style={{ fontWeight: "700", color: "var(--color-text-heading)", marginBottom: "0.25rem" }}>Indiverse Enterprises</h3>
-              <p style={{ fontSize: "0.9rem", color: "var(--color-text-body)" }}>Kennette Wesley Stephen | +91 7200678997</p>
+              <h3 style={{ fontWeight: "700", color: "var(--color-text-heading)", marginBottom: "0.25rem" }}>Indiverse Enterprises Pvt Ltd</h3>
+              <p style={{ fontSize: "0.9rem", color: "var(--color-text-body)" }}>Dillivijay.V | +91 7200678997</p>
               <p style={{ fontSize: "0.8rem", color: "#94a3b8", marginTop: "0.5rem" }}>Coordinates: Chennai, Tamil Nadu, India (HQ)</p>
             </div>
           </div>

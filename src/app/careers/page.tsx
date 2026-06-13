@@ -101,7 +101,7 @@ export default function Careers() {
             Submit your resume, GitHub profile, or portfolio link directly to our recruitment mailbox:
           </p>
           <a
-            href="mailto:kennettewesley@indiverseenterprises.com?subject=Job Application - Indiverse Careers"
+            href="mailto:dillivijay@indiverseenterprises.com?subject=Job Application - Indiverse Careers"
             className={styles.primaryCta}
             style={{ alignSelf: "center" }}
           >

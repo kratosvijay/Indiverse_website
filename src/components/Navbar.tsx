@@ -35,9 +35,9 @@ export default function Navbar() {
         <Link href="/" className={styles.logoLink} onClick={closeMenu}>
           <Image
             src="/logo.png"
-            alt="Indiverse Enterprises"
-            width={40}
-            height={40}
+            alt="Indiverse Enterprises Pvt Ltd"
+            width={52}
+            height={52}
             className={styles.logoImage}
             priority
           />

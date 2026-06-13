@@ -66,7 +66,7 @@ export default function ContactForm() {
                 value={formData.name}
                 onChange={handleChange}
                 className={styles.input}
-                placeholder="Kennette Wesley"
+                placeholder="Dillivijay.V"
                 required
               />
             </div>
@@ -107,7 +107,7 @@ export default function ContactForm() {
                 value={formData.company}
                 onChange={handleChange}
                 className={styles.input}
-                placeholder="Indiverse Enterprises"
+                placeholder="Indiverse Enterprises Pvt Ltd"
               />
             </div>
           </div>

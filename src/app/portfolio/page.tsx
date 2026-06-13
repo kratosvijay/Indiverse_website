@@ -62,7 +62,7 @@ export default function Portfolio() {
           <span className={styles.sectionTag}>Project Showcase</span>
           <h1 className={styles.sectionTitle} style={{ fontSize: "3rem" }}>Our Portfolio</h1>
           <p className={styles.sectionDesc} style={{ marginTop: "1rem" }}>
-            Explore software products and custom enterprise solutions designed, developed, and deployed by Indiverse Enterprises.
+            Explore software products and custom enterprise solutions designed, developed, and deployed by Indiverse Enterprises Pvt Ltd.
           </p>
         </div>
       </section>

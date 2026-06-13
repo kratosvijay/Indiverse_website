@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Indiverse Enterprises | Building Intelligent Mobile & Cloud Solutions",
+  title: "Indiverse Enterprises Pvt Ltd | Building Intelligent Mobile & Cloud Solutions",
   description: "We develop Android apps, iOS applications, SaaS platforms, AI-powered systems, and enterprise software that help businesses scale faster.",
   keywords: [
     "Android App Development",
@@ -31,23 +31,23 @@ export const metadata: Metadata = {
     "ERP Systems",
     "Custom Software Development",
     "School ERP",
-    "Indiverse Enterprises"
+    "Indiverse Enterprises Pvt Ltd"
   ],
   metadataBase: new URL("https://www.indiverseenterprises.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Indiverse Enterprises | Building Intelligent Mobile & Cloud Solutions",
+    title: "Indiverse Enterprises Pvt Ltd | Building Intelligent Mobile & Cloud Solutions",
     description: "We develop Android apps, iOS applications, SaaS platforms, AI-powered systems, and enterprise software that help businesses scale faster.",
     url: "https://www.indiverseenterprises.com",
-    siteName: "Indiverse Enterprises",
+    siteName: "Indiverse Enterprises Pvt Ltd",
     images: [
       {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "Indiverse Enterprises Logo",
+        alt: "Indiverse Enterprises Pvt Ltd Logo",
       },
     ],
     locale: "en_US",
