@@ -47,7 +47,7 @@
 .logoText {
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   color: var(--color-text-heading);
   letter-spacing: -0.02em;
 }

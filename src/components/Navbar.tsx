@@ -36,8 +36,8 @@ export default function Navbar() {
           <Image
             src="/logo.png"
             alt="Indiverse Enterprises Pvt Ltd"
-            width={52}
-            height={52}
+            width={64}
+            height={56}
             className={styles.logoImage}
             priority
           />
