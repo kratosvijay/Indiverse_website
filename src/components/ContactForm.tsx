@@ -22,7 +22,7 @@ export default function ContactForm() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) {
       setError("Please fill in all required fields (Name, Email, Message).");
@@ -32,9 +32,21 @@ export default function ContactForm() {
     setError("");
     setIsSubmitting(true);
 
-    // Mock API call
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to send the message. Please try again.");
+      }
+
       setIsSubmitted(true);
       setFormData({
         name: "",
@@ -44,7 +56,12 @@ export default function ContactForm() {
         subject: "",
         message: "",
       });
-    }, 1500);
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Failed to connect to the server. Please try again.";
+      setError(errorMessage);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

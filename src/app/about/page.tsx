@@ -71,7 +71,7 @@ export default function About() {
       <section className={styles.section} style={{ padding: "2rem 1.5rem" }}>
         <div className={styles.careersBanner}>
           <div className={styles.careersText}>
-            <h2 className={styles.sectionTitle} style={{ marginBottom: "0.5rem" }}>Let's Work Together</h2>
+            <h2 className={styles.sectionTitle} style={{ marginBottom: "0.5rem" }}>Let&apos;s Work Together</h2>
             <p style={{ color: "var(--color-text-body)", maxWidth: "500px" }}>
               Partner with Indiverse to digitize your operations and build secure mobile and cloud solutions.
             </p>
